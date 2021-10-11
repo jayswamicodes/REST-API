@@ -85,9 +85,9 @@ def get_weather_by_lattitude_logitude(url_base, username, password, api_key, lat
     lat_result = False
     lon_result = False
     
-    if lat_attribute is not None and int(lat_attribute) != lattitude:
+    if lat_attribute is not None and int(lat_attribute) == lattitude:
         lat_result = True    
-    if lon_attribute is not None and int(lon_attribute) != longitude:
+    if lon_attribute is not None and int(lon_attribute) == longitude:
         lon_result = True
         
     if lat_result and lon_result:
