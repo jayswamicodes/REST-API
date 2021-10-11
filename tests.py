@@ -76,7 +76,7 @@ if argsc.testscript3:
 
 
 for k, v in test_results.items():
-    print(k, v)
+    print(k, " : ", v)
 
 print("Test Coverage Report: ")
 print("Total Tests Run : ", tests_total)
