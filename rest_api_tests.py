@@ -2,7 +2,7 @@ import requests
 from requests.auth import HTTPBasicAuth
 
 from requests.compat import urljoin
-from zipcode_city_map import zip_city
+from zipcode_city_map import zip_city # contains the mapping for zipcode and its city names
 from utils import ResultForTests
 
 
